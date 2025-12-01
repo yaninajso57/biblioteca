@@ -7,7 +7,7 @@ pipeline {
     }
 
     stages {
-        stages('Show messages'){
+        stage('Show messages'){
             steps {
                 bet 'echo "Primer stage del pipeline"'
             }
